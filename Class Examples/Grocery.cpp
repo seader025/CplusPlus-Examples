@@ -7,7 +7,7 @@
 #include<conio.h>
 using namespace std;
 
-// Place class declarations and implementations here
+
 class GroceryItem
 {
 private:
@@ -80,9 +80,9 @@ void GroceryItem::displayItem()
 		<< "Total value of stock:  $" << totalValue << endl;
 }
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
+
 	const int SIZE = 10;
 	GroceryItem itemArray[SIZE];
 
