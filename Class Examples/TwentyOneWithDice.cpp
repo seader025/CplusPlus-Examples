@@ -8,7 +8,7 @@
 #include <ctime>
 using namespace std;
 
-// Place class declarations and implementations here
+
 class Die
 {
 private:
@@ -29,9 +29,9 @@ int Die::getDieFaceUpValue()
 }
 
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
+	
 	Die dice;
 	char rollAgain = 'y';
 	char playAgain = 'y';
