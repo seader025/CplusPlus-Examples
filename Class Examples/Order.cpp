@@ -7,7 +7,7 @@
 #include<conio.h>
 using namespace std;
 
-// Place class declarations and implementations here
+
 class Order
 {
 private:
@@ -46,9 +46,9 @@ void Order::displayOrder()
 		<< "=========================" << endl << endl;
 }
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
+	
 	Order orderUp;
 	int numPatrons = 5;
 	cout << "The minimum charge for the current table is:  " << endl;
