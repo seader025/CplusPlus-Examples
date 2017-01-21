@@ -6,7 +6,6 @@
 #include<conio.h>
 using namespace std;
 
-// Place class declarations and implementations here
 class Customer
 {
 private:
@@ -55,9 +54,9 @@ void Customer::displayCustomerData()
 
 
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
+	
 	const int SIZE = 5;
 	Customer customerArray[SIZE];
 	int id;
