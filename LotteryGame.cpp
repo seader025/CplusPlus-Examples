@@ -5,11 +5,10 @@
 #include <ctime>
 using namespace std;
 
-// Place class declarations and implementations here
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
 	//Declaratons
 	const int DIVISOR = 10;
 	const int NUM = 3;
