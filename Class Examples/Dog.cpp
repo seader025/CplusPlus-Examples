@@ -7,7 +7,7 @@
 #include<conio.h>
 using namespace std;
 
-// Place class declarations and implementations here
+
 class Dog
 {
 private:
@@ -43,9 +43,9 @@ void Dog::displayDogInfo()
 		<< "License Fee:  " << fee << endl << endl;
 }
 
-int _tmain(int argc, _TCHAR* argv[]) // This is the same as main() in the book
+int _tmain(int argc, _TCHAR* argv[]) 
 {
-	// Place main code here
+	
 	Dog sally;
 
 	sally.setDogAge(12);
